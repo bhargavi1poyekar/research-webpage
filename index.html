@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Bhargavi Poyekar</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="" class="nav__logo">Bhargavi Poyekar</a>
+                
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#publications" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Publications
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme Change Button  -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://scholar.google.com/citations?user=0c8p-pwAAAAJ&hl=en"  target="_blank" class="home__social-icon tooltip">
+                                <span class="tooltiptext">Google Scholar</span> <span class="uil--graduation-cap"></span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/bhargavi-poyekar-b342831a3/" target="_blank" class="home__social-icon tooltip">
+                                <span class="tooltiptext">Linkedin</span> <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://github.com/bhargavi1poyekar" target="_blank" class="home__social-icon tooltip">
+                                <span class="tooltiptext">Github</span>  <i class="uil uil-github-alt"></i>
+                            </a>   
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x='-100' y='-30' xlink:href="assets/img/about.jpg"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title" id="element"></h1>
+                            <h3 class="home__subtitle">MS Computer Science student at <br>University of Maryland Baltimore County</h3>
+                            <p class="home__description">
+                                Researcher with a keen interest in Signal Processing, Machine Learning, Computer Vision, and Computer Security, dedicated to advancing knowledge and solving complex problems.
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                              Contact Me  <i class="uil uil-message button__icon"></i>
+                            </a>
+                            <a href="https://bhargavi1poyekar.github.io/research-webpage/Bhargavi_Poyekar_CV.pdf" target="_blank" class="button button--flex">
+                               Bhargavi CV  <i class="uil uil-download-alt button__icon"></i>
+                              </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/Profile.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            As a passionate and innovative researcher in computer science, I have a strong foundation and a deep interest in emerging technologies. My expertise lies in Signal Processing, Machine Learning, Computer Vision, and Cryptography, where I continually refine my skills to develop cutting-edge solutions for complex problems. Committed to delivering high-quality results, I am dedicated to contributing to the advancement of knowledge in the ever-evolving landscape of the tech industry.
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">3.92/4</span>
+                                <span class="about__info-name">Current<br>GPA</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">3</span>
+                                <span class="about__info-name">Research<br>Publications</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">4</span>
+                                <span class="about__info-name">Research/Teaching <br>experience</span>
+                            </div>
+                        </div>
+                        <!-- <div class="about__buttons">
+                            <a  href="https://bhargavi1poyekar.github.io/BhargaviPoyekar_Resume.pdf" class="button button--flex" target="_blank">
+                                View Resume<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My Journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work 
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+
+                        <div class="qualifications__content qualification__active" data-content id="education">
+
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">MS in Computer Science</h3>
+                                    <span class="qualification__subtitle">University of Maryland Baltimore County</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt button__icon"></i>
+                                        2022-2024
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+                                
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">BTech in Computer Engineering</h3>
+                                    <span class="qualification__subtitle">Sardar Patel Institute of Technology,<br>University of Mumbai</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt button__icon"></i>
+                                        2018-2022
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">High School</h3>
+                                    <span class="qualification__subtitle">M.H. High School, India</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt button__icon"></i>
+                                        2016-2018
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+                                
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                                
+                                <div>
+                                    <h3 class="qualification__title"></h3>
+                                    <span class="qualification__subtitle"></span>
+                                    <!-- <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt button__icon"></i>
+                                       
+                                    </div> -->
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="qualifications__content" data-content id="work" >
+                            
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Cyber Security Summer Intern</h3>
+                                    <span class="qualification__subtitle">University of Maryland Baltimore County</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt button__icon"></i>
+                                        June 2023 - Aug 2023
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+                                
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Student Research Assistant</h3>
+                                    <span class="qualification__subtitle">University of Maryland Baltimore County</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt button__icon"></i>
+                                        Sept 2022 - April 2023
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="qualification__data">
+                                
+
+                                <div>
+                                    <h3 class="qualification__title">Laravel Web Developer Intern</h3>
+                                    <span class="qualification__subtitle">Origin Cloud Tech, India</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt button__icon"></i>
+                                        June 2020- Aug 2020
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Website Developer Intern</h3>
+                                    <span class="qualification__subtitle">Ask in City, India</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt button__icon"></i>
+                                        May 2022- June 2022
+                                    </div>
+                                </div>
+                               
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+                                
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                                
+                                <!-- <div>
+                                    <h3 class="qualification__title">Computer Engineer</h3>
+                                    <span class="qualification__subtitle">UMBC</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt button__icon"></i>
+                                        2022-2024
+                                    </div>
+                                </div> -->
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="publications section" id="publications">
+                <h2 class="section__title">Research Publications</h2>
+                <span class="section__subtitle">Papers</span>
+
+                <div class="testimonial__container container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <div>
+                                        <h3 class="testimonial__name">Face Recognition Attendance System for Online Classes</h3>
+                                        <span class="testimonial__client">doi: 10.1109/ICCCNT54827.2022.9984382</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">
+                                Developed a face recognition-based attendance system for online classes using <b class="bold-text">OpenCV and deep learning</b> techniques, achieving an accuracy of <b class="bold-text">96.5%</b> and reducing manual effort by <b class="bold-text">70%</b>.
+                            </p>
+                            <div class="about__buttons">
+                                <a href="https://bhargavi1poyekar.github.io/research-webpage/publication_1.pdf" target="_blank" class="button paper__button">
+                                    Download Paper<i class="uil uil-download-alt button__icon"></i>
+                                </a>
+                            </div>
+                            
+                        </div>
+
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <div>
+                                        <h3 class="testimonial__name">Stroke prediction using Smote-Tomek and neural network</h3>
+                                        <span class="testimonial__client">doi: 10.1109/ICCCNT51525.2021.9579763</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">
+                                The model achieved an impressive accuracy of <b class="bold-text">94.29%</b> and outperformed other traditional classifiers by addressing the <b class="bold-text">class imbalance</b> in the data using Smote-Tomek and training a neural network on the resampled data.
+                            </p>
+                            <div class="about__buttons">
+                                <a href="https://bhargavi1poyekar.github.io/research-webpage/publication_2.pdf" target="_blank" class="button paper__button">
+                                    Download Paper<i class="uil uil-download-alt button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <div>
+                                        <h3 class="testimonial__name">Diabetes Prediction using Feature Extraction <br>and Machine Learning Models</h3>
+                                        <span class="testimonial__client">doi: 10.1109/ICESC51422.2021.9532818</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">
+                                In this study, we analyzed multiple feature extraction techniques and evaluated their effectiveness in combination with different machine learning algorithms. The study achieves an accuracy of <b class="bold-text">89.5%</b> in predicting diabetes, demonstrating the potential of this approach in improving diabetes diagnosis and management."
+                            </p>
+                            <div class="about__buttons">
+                                <a href="https://bhargavi1poyekar.github.io/research-webpage/publication_3.pdf" target="_blank" class="button paper__button">
+                                    Download Paper<i class="uil uil-download-alt button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                    <!-- <div class="swiper-pagination swiper-pagination-testimonial"></div> -->
+                </div>
+            </section>
+
+            <!-- ==================== Work Exp ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Work Exp</h2>
+                <span class="section__subtitle"></span>
+
+                <div class="services__container container grid">
+
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-cloud-lock services__icon"></i>
+                            <h3 class="services__title">Cyber Security<br>Intern</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            View More 
+                            <i class="uil uil-arrow-right button__icon"></i> 
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Cyber Security<br>Intern</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p><b class="bold-text">Automated</b> the launching, configuration, and management of virtual machines (VMs) using Ansible.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Developed and executed <b class="bold-text">Ansible playbooks</b> to streamline deployment processes and ensure consistent configurations across VMs.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Gained proficiency in utilizing Ansible through command line operations and Python scripting.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Applied networking concepts to create a <b class="bold-text">network of virtual machines</b>, facilitating hands-on exercises on DOS attacks, injection attacks, and cryptography, deepening understanding of cybersecurity principles.</p>
+                                    </li>
+                                    <!-- <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Attended daily <b class="bold-text">scrum</b> meetings.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Worked collaboratively with <b class="bold-text">team</b> members.</p>
+                                    </li> -->
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-brain services__icon"></i>
+                            <h3 class="services__title">Student Research Assistant<br>Part Time</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            View More 
+                            <i class="uil uil-arrow-right button__icon"></i> 
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Student Research Assistant<br>Part Time</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Extracted time, frequency, and non-linear HRV features from ECG signal data using <b class="bold-text">Python</b>.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Optimized <b class="bold-text">machine learning</b> models for cognitive load classification.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Improved model accuracy through experiments with data.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Enhanced model <b class="bold-text">robustness</b> by adding Gaussian noise to simulate real-world conditions.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Provided valuable insights into trends and patterns.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-visual-studio services__icon"></i>
+                            <h3 class="services__title">Laravel Web Developer<br>Intern</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            View More 
+                            <i class="uil uil-arrow-right button__icon"></i> 
+                        </span>
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Laravel Web Developer<br>Intern</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Developed a scalable LMS Website using <b class="bold-text">Laravel Model-View-Controller</b> Framework.</p>
+                                    </li>
+                                    
+                                  
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Streamlined system security by incorporating email and mobile <b class="bold-text">OTP verification</b>.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Expertly integrated various <b class="bold-text">APIs</b>, including payment methods like Paypal and Razorpay, message and location APIs, and Zoom API.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Designed an aesthetically pleasing user interface for the application using <b class="bold-text">HTML, CSS, Bootstrap, and Javascript</b>.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Created a well-structured database design.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Performed <b class="bold-text">CRUD</b> queries with the use of join operations.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+                </div>
+            </section> 
+
+
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Academic</span>
+
+                <div class="portfolio__container container swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Portfolio 1 -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/image_blending.png" alt="" class="portfolio__img">
+                            <div class="portfolio__data">
+                               
+                                <h3 class="portfolio__title">Multiresolution Image Blending</h3>
+                                <p class="portfolio__description">
+                                    Implemented multiresolution image blending using <b class="bold-text">Gaussian/Laplacian pyramids</b>. Developed blending techniques for the iconic "orapple" creation, employing direct, alpha, and multiresolution blending. Extended the approach to images of True Grit (mascot) and a Chesapeake Bay Retriever.
+                                </p>
+                                <div class="about__buttons">
+                                    <a href="https://github.com/bhargavi1poyekar/Image_Blending" class="button button--flex button--small portfolio__button">
+                                        Github
+                                        <i class="uil uil-github button__icon"></i>
+                                    </a>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/image3.png" alt="" class="portfolio__img">
+                            <div class="portfolio__data">
+                                
+                                <h3 class="portfolio__title">Intelligent Flappy Bird Player</h3>
+                                <p class="portfolio__description">
+                                    Explored the use of reinforcement learning (RL) algorithms to train an intelligent Flappy Bird player in navigating complex mazes of pipes. The study compared <b class="bold-text">Q-learning, Deep Q-Networks (DQN), and Policy Gradient</b>, highlighting DQN as the most promising with superior performance, achieving a maximum reward of 14 over minimal iterations. These insights offer valuable perspectives on the efficacy of various RL techniques in dynamic gaming environments.
+                                </p>
+                                <div class="about__buttons">
+                                    <a href="https://github.com/bhargavi1poyekar/Blog-master" class="button button--flex button--small portfolio__button">
+                                        Github
+                                        <i class="uil uil-github button__icon"></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/EmoMusic.png" alt="" class="portfolio__img">
+                            <div class="portfolio__data">
+                                
+                                <h3 class="portfolio__title">EmoMusic</h3>
+                                <p class="portfolio__description">
+                                    Our team developed an emotion detection and music recommendation application using <b class="bold-text">Python and Convolutional Neural Networks</b> (CNN) for facial expression analysis. The app generates a personalized playlist based on the user's emotional state and includes an advanced music player to play the recommended songs. The application is built with <b class="bold-text">Django, HTML, JavaScript, and SQLite</b>.
+                                </p>
+                                <div class="about__buttons">
+                                    <a href="https://github.com/pritamrao746/music" target="_blank" class="button button--flex button--small portfolio__button">
+                                        Github
+                                        <i class="uil uil-github button__icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 2 -->
+
+                     
+
+                        <!-- Portfolio 3 -->
+
+                       
+
+                       
+                    
+
+                       
+
+                        
+                    </div>
+                    
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                   
+                </div>
+            </section>
+
+
+          
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in Touch</span>
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">(667)-464-0096</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">bhargavi1poyekar@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Arbutus, 21227, MD</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            div.class
+                        </div>
+                    </form> -->
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Bhargavi</h1>
+                        <span class="footer__subtitle">Research Enthusiast</span>
+                    </div>
+                    
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/bhargavi.poyekar/" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/bhargavi_poyekar/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://www.goodreads.com/user/show/123064791?ref=nav_profile_l" target="_blank" class="footer__social">
+                            <i class="uil uil-books"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Hello, I am Bhargavi !!'],
+              typeSpeed: 50,
+              showCursor: false,
+            });
+          </script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
